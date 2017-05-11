@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM library/node:0.8
+FROM library/node:0.10
 MAINTAINER Usemtech <docker@usem.tech>
 
 # Install Bower & Grunt
