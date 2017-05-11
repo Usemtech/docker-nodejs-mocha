@@ -30,24 +30,24 @@ This repository contains a **Dockerfile** of [Node.js](http://nodejs.org/) w/ [M
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download an [automated build](https://hub.docker.com/r/usemtech/docker-nodejs-mocha/) from public the [Docker Hub Registry](https://hub.docker.com/): `docker pull usemtech/docker-nodejs-mocha`
+2. Download an [automated build](https://hub.docker.com/r/usemtech/nodejs-mocha/) from public the [Docker Hub Registry](https://hub.docker.com/): `docker pull usemtech/nodejs-mocha`
 
-   (alternatively, you can build an image directly from this repository: `docker build -t="usemtech/docker-nodejs-mocha" github.com/usemtech/docker-nodejs-mocha`)
+   (alternatively, you can build an image directly from this repository: `docker build -t="usemtech/nodejs-mocha" github.com/usemtech/nodejs-mocha`)
 
 
 ### Usage
 
-    docker run -it --rm usemtech/docker-nodejs-mocha
+    docker run -it --rm usemtech/nodejs-mocha
 
 #### Run `node`
 
-    docker run -it --rm usemtech/docker-nodejs-mocha node
+    docker run -it --rm usemtech/nodejs-mocha node
 
 #### Run `npm`
 
-    docker run -it --rm usemtech/docker-nodejs-mocha npm
+    docker run -it --rm usemtech/nodejs-mocha npm
 
 #### Run `mocha`
 
-    docker run -it --rm usemtech/docker-nodejs-mocha mocha
+    docker run -it --rm usemtech/nodejs-mocha mocha
 
