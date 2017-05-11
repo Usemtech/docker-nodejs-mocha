@@ -1,6 +1,6 @@
 ## Important note:
 
-All the credit goas to [DigitallySeamless](https://github.com/DigitallySeamless). You can think of this repos as `copy/past/replace`
+All the credit goes to [DigitallySeamless](https://github.com/DigitallySeamless). You can think of this repos as `copy/past/replace`
 with small adjustments of the wonderful repos [docker-nodejs-bower-grunt](https://github.com/DigitallySeamless/docker-nodejs-bower-grunt).
 
 ## Docker with Node.js & Mocha
